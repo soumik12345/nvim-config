@@ -22,4 +22,5 @@ require('lazy').setup({
     require('plugins.lualine'),
     require('plugins.bufferline'),
     require('plugins.treesitter'),
+    require('plugins.telescope'),
 })
