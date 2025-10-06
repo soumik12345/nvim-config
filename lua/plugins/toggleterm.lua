@@ -42,6 +42,7 @@ return {
                 on_open = function(term)
                     vim.cmd('setlocal modifiable')
                     vim.cmd('setlocal modified')
+                    vim.keymap.set('t', '<Esc>', '<cmd>close<CR>', { noremap = true, silent = true })
                 end,
                 -- You can add other configuration options here as needed
             })
