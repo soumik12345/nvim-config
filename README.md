@@ -1,6 +1,6 @@
-# Neovim Configuration
+# Vasco
 
-My personal neovim configuration.
+Minimalist Neovim configuration to nugde VSCode users to throw away their mouse (mostly).
 
 ## Installation
 
@@ -13,7 +13,7 @@ brew install ripgrep
 Then we can clone the repository in our neovim config directory:
 
 ```bash
-git clone https://github.com/soumik12345/nvim-config.git ~/.config/nvim
+git clone https://github.com/soumik12345/vasco.git ~/.config/nvim
 ```
 
 ## Acknowledgments
