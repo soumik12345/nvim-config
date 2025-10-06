@@ -86,9 +86,25 @@ Python, JavaScript, TypeScript, Lua, Go, Rust, C/C++, HTML, CSS, SQL, Docker, Te
 
 First we must install some dependencies:
 
+<details>
+
+<summary>For MacOS</summary>
+
 ```bash
 brew install ripgrep
 ```
+
+</details>
+
+<details>
+
+<summary>For Debian/Ubuntu</summary>
+
+```bash
+sudo apt install ripgrep
+```
+
+</details>
 
 Then we can clone the repository in our neovim config directory:
 
