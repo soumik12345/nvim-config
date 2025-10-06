@@ -77,6 +77,7 @@ Python, JavaScript, TypeScript, Lua, Go, Rust, C/C++, HTML, CSS, SQL, Docker, Te
 
 ### 🖥️ Terminal
 - `<C-`>` - Toggle terminal (vertical)
+- When in terminal, `<Esc>` will close the terminal
 
 ### 🎨 Editor
 - `<leader>lw` - Toggle line wrapping
