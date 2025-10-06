@@ -19,6 +19,9 @@ vim.keymap.set('n', '<leader>sn', '<cmd>noautocmd w <CR>', opts)
 -- quit file
 vim.keymap.set('n', '<C-q>', '<cmd> q <CR>', opts)
 
+-- quit all files
+vim.keymap.set('n', '<C-Esc>', '<cmd> quitall <CR>', opts)
+
 -- Vertical scroll and center
 vim.keymap.set('n', '<C-d>', '<C-d>zz', opts)
 vim.keymap.set('n', '<C-u>', '<C-u>zz', opts)
@@ -60,7 +63,7 @@ vim.keymap.set('n', '<leader>tn', ':tabn<CR>', opts) --  go to next tab
 vim.keymap.set('n', '<leader>tp', ':tabp<CR>', opts) --  go to previous tab
 
 -- ToggleTerm
-vim.keymap.set('n', '<C-`>', ':ToggleTerm size=40 dir=. direction=vertical<CR>', opts)
+vim.keymap.set('n', '<C-`>', ':ToggleTerm size=80 dir=. direction=vertical<CR>', opts)
 
 -- Toggle line wrapping
 vim.keymap.set('n', '<leader>lw', '<cmd>set wrap!<CR>', opts)
