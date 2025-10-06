@@ -59,6 +59,9 @@ vim.keymap.set('n', '<leader>tx', ':tabclose<CR>', opts) -- close current tab
 vim.keymap.set('n', '<leader>tn', ':tabn<CR>', opts) --  go to next tab
 vim.keymap.set('n', '<leader>tp', ':tabp<CR>', opts) --  go to previous tab
 
+-- ToggleTerm
+vim.keymap.set('n', '<C-`>', ':ToggleTerm size=40 dir=. direction=vertical<CR>', opts)
+
 -- Toggle line wrapping
 vim.keymap.set('n', '<leader>lw', '<cmd>set wrap!<CR>', opts)
 
