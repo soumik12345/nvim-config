@@ -84,7 +84,7 @@ Python, JavaScript, TypeScript, Lua, Go, Rust, C/C++, HTML, CSS, SQL, Docker, Te
 
 ## 📦 Installation
 
-First we must install some dependencies:
+First we must install `ripgrep` to power the fuzzy finder:
 
 <details>
 
